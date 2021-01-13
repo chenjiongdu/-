@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    /* background-color: rgb(255, 255, 255); */
+    color:#3c3c3c;
+    overflow-x: hidden;
+}
+.page{
+    width:100%;
+    height:100%;
+    /* background-color: aqua; */
+}
+/* 上导航条 */
+.page .top-nav-wrap{
+    width:100%;
+    height:105px;
+}
+.page .top-nav-wrap .top-nav{
+    width:1190px;
+    height:35px;
+    /* border:1px solid black; */
+    margin:0 auto;
+}
+
+.page .top-nav-wrap .top-nav .top-nav-l{
+    float:left;
+}
+.page .top-nav-wrap .top-nav .top-nav-r{
+    float:right;
+}
+.page .top-nav-wrap .top-nav ul li{
+    float: left;
+    margin-right:7px;
+}
+.page .top-nav-wrap .top-nav a{
+    color:#6c6c6c;
+    font-size:12px;
+    line-height: 35px;
+    padding:0 6px;
+}
+.page .top-nav-wrap .top-nav a:hover{
+    color:#f40;
+}
+.page .top-nav-wrap .top-nav .china{
+    color:#3c3c3c;
+    line-height: 35px;
+    font-size:13px;
+}
+.page .top-nav-wrap .top-nav a.login{
+    color:#f40;    
+}
+.page .top-nav-wrap .top-nav  .c-span{
+    padding:0 6px;
+}
+.page .top-nav-wrap .top-nav .bg-pic{
+    display:inline-block;
+    width: 6px;
+    height:3px;
+    background-size:100% 100%; 
+    vertical-align: middle;
+}
+.page .top-nav-wrap .top-nav .bg-pic.xsj-pic{
+    background-image: url('../img/xsj.png');
+}
+.page .top-nav-wrap .top-nav .bg-pic.shopCar-pic{
+    background-image: url('../img/gwc.png');
+    width:12px;
+    height:12px;
+}
+.page .top-nav-wrap .top-nav .bg-pic.like-pic{
+    background-image: url('../img/star.png');
+    width:12px;
+    height:12px;
+}
+.page .top-nav-wrap .top-nav .bg-pic.web-nav-pic{
+    background-image: url('../img/dh.png');
+    width:8px;
+    height:8px;
+}
+.page .top-nav-wrap .top-nav .cut-off span{
+    line-height: 35px;
+    color:#ddd;
+}
+.page .top-nav-wrap .ad-wrap{
+    width:100%;
+    height:70px;
+    /* background-color: #4c174d; */
+}
+.page .top-nav-wrap .ad-wrap .ad{
+    width:1190px;
+    margin:0 auto;
+}
+.page .top-nav-wrap .ad-wrap img{
+    width:110px;
+    height:70px;
+}
+/* 主体部分 */
+.page .content{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.page .content .login-newbg{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(../img/xk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+}
+.page .content .login-ad{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* 表格部分 */
+.page .content .item{
+    width: 350px;
+    height: 300px;
+    background-color: #eee;
+    position: relative;
+    z-index: 4;
+    float: right;
+    top: 120px;
+    right: 200px;
+}
+.page .content .item .item2{
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+/* 扩展部分 */
+.page .extend{
+    width: 100%;
+    height: 165px;
+}
+
+/*页脚部分*/
+.page .footer {
+    background-color: #1C1F21;
+    width: 100%;
+    height: 100px;
+}
+.page .footer_ul {
+    width: 1140px;
+    margin: 0 auto;
+    list-style: none;
+}
+.page .footer_ul li {
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8D967A;
+}
